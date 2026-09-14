@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Beli Cash"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/Editkodecash"
+        android:inputType="text"
+        android:hint="Kode Beli Cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No KTP Pembeli"
+        android:textAlignment="viewStart"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Mobil"
+        android:textAlignment="viewStart"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="16dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinnerkodemobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/Edittanggal"
+        android:inputType="text"
+        android:hint="Tanggal Beli Cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Editbayar"
+        android:inputType="text"
+        android:hint="Total Bayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/Simpan"
+        android:backgroundTint="#AEC6CF"
+        />
+</LinearLayout>

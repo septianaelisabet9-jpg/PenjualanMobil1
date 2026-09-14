@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang Di Showroomie"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Mobil"
+        android:id="@+id/tombolmobil"
+        android:backgroundTint="#AEC6CF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Pembeli"
+        android:id="@+id/tombolpembeli"
+        android:backgroundTint="#AEC6CF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Paket"
+        android:id="@+id/tombolpaket"
+        android:backgroundTint="#AEC6CF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Beli Cash"
+        android:id="@+id/tombolcash"
+        android:backgroundTint="#AEC6CF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Beli Kredit"
+        android:id="@+id/tombolkredit"
+        android:backgroundTint="#AEC6CF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Bayar Cicilan"
+        android:id="@+id/tombolcicilan"
+        android:backgroundTint="#AEC6CF"
+        />
+
+
+
+</LinearLayout>

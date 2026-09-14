@@ -1,0 +1,13 @@
+package com.example.penjualanmobil;
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class TambahDataCicilActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle SaveInStanceState){
+        super.onCreate(SaveInStanceState);
+        setContentView(R.layout.activity_tambah_bayar_cicilan);
+    }
+}
